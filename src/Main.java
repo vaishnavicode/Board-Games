@@ -8,7 +8,7 @@ public class Main {
         try {
             while (true) {
 
-                System.out.println("\n----INDEX----\n1. Snakes and Ladders\n2. Tic Tac Toe\n3. \n4. Exit");
+                System.out.println("\n----INDEX----\n1. Snakes and Ladders\n2. Tic Tac Toe\n3. Monopoly\n4. Exit");
                 System.out.print("\nEnter your choice: ");
 
                 int choice = sc.nextInt();
@@ -19,6 +19,8 @@ public class Main {
 
                 switch (choice) {
                     case 1:
+                        SnakesAndLadders obj = new SnakesAndLadders();
+                        obj.snakesAndLadders();
                         break;
 
                     case 2:
