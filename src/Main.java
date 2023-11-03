@@ -5,10 +5,13 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        try {
+
             while (true) {
 
-                System.out.println("\n----INDEX----\n1. Snakes and Ladders\n2. Tic Tac Toe\n3. Monopoly\n4. Exit");
+                System.out.println("\n----INDEX----\n1. Snakes and Ladders\n4. Exit");
+
+                //To add: 2. Tic Tac Toe 3. Monopoly
+
                 System.out.print("\nEnter your choice: ");
 
                 int choice = sc.nextInt();
@@ -19,14 +22,8 @@ public class Main {
 
                 switch (choice) {
                     case 1:
-                        SnakesAndLadders obj = new SnakesAndLadders();
+                        SnakesAndLaddersGame obj = new SnakesAndLaddersGame();
                         obj.snakesAndLadders();
-                        break;
-
-                    case 2:
-                        break;
-
-                    case 3:
                         break;  
                         
                     default:
@@ -37,9 +34,7 @@ public class Main {
 
             }
 
-        } catch (Exception e) {
-            System.out.println("Error: " + e);
-        }
+        
 
 
 
