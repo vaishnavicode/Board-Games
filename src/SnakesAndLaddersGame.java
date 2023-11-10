@@ -100,7 +100,9 @@ public class SnakesAndLaddersGame {
     }
 
     private void initializeLaddersAndSnakes() {
+
         snakesAndLadders = new SnakesAndLadders[16];
+
         snakesAndLadders[0] = new SnakesAndLadders(3, 38);
         snakesAndLadders[1] = new SnakesAndLadders(4, 14);
         snakesAndLadders[2] = new SnakesAndLadders(8, 31);
@@ -117,6 +119,7 @@ public class SnakesAndLaddersGame {
         snakesAndLadders[13] = new SnakesAndLadders(93, 73);
         snakesAndLadders[14] = new SnakesAndLadders(95, 75);
         snakesAndLadders[15] = new SnakesAndLadders(98, 59);
+        
         
     }
 
